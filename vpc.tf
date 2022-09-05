@@ -1,5 +1,5 @@
 module "network" {
-    source  = "terraform-google-modules/network/google"
+    source  = "app.terraform.io/myorg-ck/network/google"
     version = "3.4.0"
 
     project_id   = var.project
